@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Bluu Next Cyrillic'; /* Дайте шрифту логічне ім'я */
+    src: 
+         url('../fonts/Bluu Next Cyrillic.woff') format('woff'), /* Резервний формат */
+         url('../fonts/Bluu Next Cyrillic.ttf') format('truetype'); /* Старіший формат */
+    font-weight: normal; /* Вказує на вагу: normal, bold, 400, 700 тощо */
+    font-style: normal; /* Стиль: normal, italic */
+};

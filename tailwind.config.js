@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"], // Вказує шляхи до файлів, в яких Tailwind буде шукати класи для генерації стилів
+  content: ["./**/*.html"], // Вказує шляхи до файлів, в яких Tailwind буде шукати класи для генерації стилів
   theme: {
     extend: { // Розширює базову тему Tailwind
       fontFamily: {
@@ -11,10 +11,30 @@ module.exports = {
         current: 'currentColor',
         'white': '#ffffff',
         'yellow': '#FABF59',
+        'background': '#1D1D1D',
+      },
+      padding: {
+        '2.5': '0.625rem',
       },
       spacing: {
         0.8: '0.005rem',
-      }
+      },
+      backgroundImage: {
+        'hero': "url('./images/hogwarts.jpg')",
+      },
+      backgroundSize: {
+        'cover': 'cover',
+      },
+      backgroundPosition: {
+        'center': 'center',
+      },
+      backgroundRepeat: {
+        'no-repeat': 'no-repeat',
+      },
+      linearGradientDirections: {
+        // Додаткові напрямки градієнтів, які можна використовувати
+        '179': '179deg',
+      },
     },
   },
   plugins: [], // Місце для додавання плагінів Tailwind, якщо вони будуть потрібні

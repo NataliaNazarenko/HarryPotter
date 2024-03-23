@@ -578,9 +578,9 @@ video {
   }
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .flex {
@@ -591,14 +591,16 @@ video {
   height: 3rem;
 }
 
-.w-12 {
-  width: 3rem;
+.h-full {
+  height: 100%;
 }
 
-.border-spacing-60 {
-  --tw-border-spacing-x: 15rem;
-  --tw-border-spacing-y: 15rem;
-  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+.h-screen {
+  height: 100vh;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .justify-between {
@@ -643,6 +645,10 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.pt-big {
+  padding-top: 20px;
 }
 
 .text-center {

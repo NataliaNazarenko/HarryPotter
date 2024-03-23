@@ -14,7 +14,7 @@ module.exports = {
         'background': '#1D1D1D',
       },
       padding: {
-        '2.5': '0.625rem',
+        'big': '20px',
       },
       spacing: {
         0.8: '0.005rem',

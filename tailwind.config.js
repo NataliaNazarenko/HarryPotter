@@ -11,7 +11,7 @@ module.exports = {
         current: 'currentColor',
         'white': '#ffffff',
         'yellow': '#FABF59',
-        'background': '#1D1D1D',
+        'background': '#F9B50C',
       },
       padding: {
         'big': '20px',

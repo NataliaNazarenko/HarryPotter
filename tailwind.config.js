@@ -14,27 +14,23 @@ module.exports = {
         'background': '#F9B50C',
       },
       padding: {
-        'big': '20px',
+        'big': '8px',
       },
-      spacing: {
-        0.8: '0.005rem',
+      letterSpacing: {
+        'text': '0.8px',
       },
-      backgroundImage: {
-        'hero': "url('./images/hogwarts.jpg')",
+      maxWidth: {
+        'hero': '905px',
       },
-      backgroundSize: {
-        'cover': 'cover',
+      height: {
+        'hero': '200px',
       },
-      backgroundPosition: {
-        'center': 'center',
+      fontSize: {
+        'hero': '80px',
       },
-      backgroundRepeat: {
-        'no-repeat': 'no-repeat',
-      },
-      linearGradientDirections: {
-        // Додаткові напрямки градієнтів, які можна використовувати
-        '179': '179deg',
-      },
+      lineHeight: {
+        'hero': '100px',
+      }
     },
   },
   plugins: [], // Місце для додавання плагінів Tailwind, якщо вони будуть потрібні

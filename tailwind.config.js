@@ -13,6 +13,13 @@ module.exports = {
         'yellow': '#FABF59',
         'background': '#F9B50C',
       },
+      borderColor: {
+        'yellow': '#FABF59',
+        'background': '#F9B50C',
+      },
+      borderRadius: {
+        'image': '20px',
+      },
       padding: {
         'big': '8px',
       },
@@ -24,7 +31,7 @@ module.exports = {
       },
       height: {
         'hero': '200px',
-        'students': '400px',
+        'students': 'auto',
       },
       width: {
         'students': '400px',

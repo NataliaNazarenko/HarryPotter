@@ -3,9 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The World of Harry Potter</title>
+    <meta
+      name="description"
+      content="The World of Harry Potter - This world is still alive and Harry Potter begins. All your friends. Teachers who are the teachers of Hogwarts School."
+    />
+    <meta
+      name="keywords"
+      content="Harry Potter, Hogwarts School, magic"
+    />
+    <meta name="author" content="The World of Harry Potter" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" width="50" height="50">
+    <link rel="stylesheet" href="./public/magic.css">
+    <link rel="stylesheet" href="./public/screensaver.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./public/styles.css">
+    <title>Harry Potter</title>
 </head>
-<body>
-    
+<body class="px-5 bg-gradient-to-r from-gray-900 via-gray-800 to-black bg-no-repeat bg-center bg-cover" style="background-image: url('./images/hero.jpg'); background-opacity: 0.75;">
+    <header class="mb-24">
+      <div class="flex justify-items-center items-center justify-between">
+        <a href="./index.html" lang="en" class="">
+          <img src="./images/logo.png" width="130" height="130" alt="logo"/>
+        </a>
+        <nav>
+          <ul class="flex items-center justify-between space-x-20">
+            <li id="menu-item">
+              <a class="text-background font-bold hover:text-yellow text-center text-xl font-custom animate__animated"  href="./index.html">Початок історії</a>
+            </li>
+            <li>
+              <button id="fireworksButton" class="bg-background rounded-full w-12 h-12 hover:bg-yellow focus:bg-yellow transition-colors flex items-center justify-center" type="button">
+                <svg class="" width="30" height="30">
+                    <use href="./images/icons.svg#icon-SVG---Ministry-of-Magic"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button id="snowButton" class="bg-background rounded-full w-12 h-12 hover:bg-yellow focus:bg-yellow transition-colors flex items-center justify-center" type="button">
+                <svg class="" width="30" height="30">
+                    <use href="./images/icons.svg#icon-SVG---Hogwarts-Expresss"></use>
+                </svg>
+            </button>
+            </li>
+            <li>
+              <button class="bg-background rounded-full w-12 h-12 hover:bg-yellow focus:bg-yellow transition-colors flex items-center justify-center" type="button">
+                <svg class="" width="30" height="30">
+                  <use href="./images/icons.svg#icon-SVG---Sorting-Hat---Gryffindor"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button class="bg-background rounded-full w-12 h-12 hover:bg-yellow focus:bg-yellow transition-colors flex items-center justify-center" type="button">
+                <svg class="" width="30" height="30">
+                  <use href="./images/icons.svg#icon-SVG---Hogwarts-Quidditch-1"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="mb-60 text-center">
+        <h1 class="text-text font-bold font-custom text-yellow leading-text tracking-text uppercase max-w-hero h-hero mb-3 m-auto">Ласкаво просимо у світ Гаррі Поттера</h1>
+        <ul>
+            <li>
+                <div>
+                    <img class="w-students h-students" src="./images/6be64db45096763d787e7d6624e76a16.jpg" alt="hogwarts students">
+                    <a href=""></a>
+                </div>  
+            </li>
+            <li>
+                <div>
+                    <img src="" alt="">
+                    <a href=""></a>
+                </div>  
+            </li>
+            <li>
+                <div>
+                    <img src="" alt="">
+                    <a href=""></a>
+                </div>  
+            </li>
+        </ul>
+    </main>
+    <footer class="">
+      <div class="flex justify-center items-center">
+        <a href="./index.html" lang="en" class="mr-5">
+          <img src="./images/logo.png" width="80" height="80" alt="logo"/>
+        </a>
+        <address>
+          <p class="font-custom text-yellow text-xs font-bold mb-1">Hogwarts School of Witchcraft and Wizardry</p>
+          <a class="font-custom text-yellow text-xs font-bold" href="mailto:info@devstudio.com">hogwarts@school.com</a>
+        </address>
+      </div>
+    </footer>
+    <script src="./js/MinistryOfMagic.js" type="module"></script>
+    <script src="./js/Snow.js" type="module"></script>
+    <script src="./js/ButtonAnimation.js" type="module"></script>
 </body>
 </html>

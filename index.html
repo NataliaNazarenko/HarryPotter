@@ -13,8 +13,9 @@
     />
     <meta name="author" content="The World of Harry Potter" />
     <link rel="icon" type="image/png" href="./images/favicon.png" width="50" height="50">
-    <link rel="stylesheet" href="./public/screensaver.css">
     <link rel="stylesheet" href="./public/magic.css">
+    <link rel="stylesheet" href="./public/screensaver.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="./public/styles.css">
     <title>Harry Potter</title>
 </head>
@@ -26,32 +27,32 @@
         </a>
         <nav>
           <ul class="flex items-center justify-between space-x-20">
-            <li>
-              <a class="text-yellow font-bold hover:underline text-center text-xl font-custom" href="./index.html">Початок історії</a>
+            <li id="menu-item">
+              <a class="text-background font-bold hover:text-yellow text-center text-xl font-custom animate__animated"  href="./index.html">Початок історії</a>
             </li>
             <li>
-              <button id="fireworksButton" class="bg-yellow rounded-full w-12 h-12 hover:bg-background focus:bg-background transition-colors flex items-center justify-center" type="button">
+              <button id="fireworksButton" class="bg-background rounded-full w-12 h-12 hover:bg-yellow focus:bg-yellow transition-colors flex items-center justify-center" type="button">
                 <svg class="" width="30" height="30">
                     <use href="./images/icons.svg#icon-SVG---Ministry-of-Magic"></use>
                 </svg>
               </button>
             </li>
             <li>
-              <button id="snowButton" class="bg-yellow rounded-full w-12 h-12 hover:bg-background focus:bg-background transition-colors flex items-center justify-center" type="button">
+              <button id="snowButton" class="bg-background rounded-full w-12 h-12 hover:bg-yellow focus:bg-yellow transition-colors flex items-center justify-center" type="button">
                 <svg class="" width="30" height="30">
                     <use href="./images/icons.svg#icon-SVG---Hogwarts-Expresss"></use>
                 </svg>
             </button>
             </li>
             <li>
-              <button class="bg-yellow rounded-full w-12 h-12 hover:bg-background focus:bg-background transition-colors flex items-center justify-center" type="button">
+              <button class="bg-background rounded-full w-12 h-12 hover:bg-yellow focus:bg-yellow transition-colors flex items-center justify-center" type="button">
                 <svg class="" width="30" height="30">
                   <use href="./images/icons.svg#icon-SVG---Sorting-Hat---Gryffindor"></use>
                 </svg>
               </button>
             </li>
             <li>
-              <button class="bg-yellow rounded-full w-12 h-12 hover:bg-background focus:bg-background transition-colors flex items-center justify-center" type="button">
+              <button class="bg-background rounded-full w-12 h-12 hover:bg-yellow focus:bg-yellow transition-colors flex items-center justify-center" type="button">
                 <svg class="" width="30" height="30">
                   <use href="./images/icons.svg#icon-SVG---Hogwarts-Quidditch-1"></use>
                 </svg>
@@ -63,7 +64,7 @@
     </header>
     <main class="mb-60 text-center">
         <h1 class="text-hero font-bold font-custom text-yellow leading-hero tracking-text uppercase max-w-hero h-hero mb-20 m-auto">Ласкаво просимо у світ Гаррі Поттера</h1>
-        <button class="bg-background rounded-full py-5 px-9 text-xl font-bold font-custom hover:bg-yellow focus:bg-yellow transition-colors">Показати всіх персонажів</button>
+        <a class="bg-background rounded-full py-5 px-9 text-xl font-bold font-custom hover:bg-yellow focus:bg-yellow transition-colors" href="./worldHP.html">Показати всіх персонажів</a>
     </main>
     <footer class="">
       <div class="flex justify-center items-center">
@@ -76,7 +77,8 @@
         </address>
       </div>
     </footer>
-    <script src="./js/MinistryOfMagic.js"></script>
-    <script src="./js/Snow.js"></script>
+    <script src="./js/MinistryOfMagic.js" type="module"></script>
+    <script src="./js/Snow.js" type="module"></script>
+    <script src="./js/ButtonAnimation.js" type="module"></script>
 </body>
 </html>

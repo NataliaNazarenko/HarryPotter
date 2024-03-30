@@ -24,12 +24,21 @@ module.exports = {
       },
       height: {
         'hero': '200px',
+        'students': '400px',
+      },
+      width: {
+        'students': '400px',
       },
       fontSize: {
         'hero': '80px',
+        'text': '40px',
       },
       lineHeight: {
         'hero': '100px',
+        'text': '60px',
+      },
+      animation: {
+        'button': 'animate__zoomOut'
       }
     },
   },

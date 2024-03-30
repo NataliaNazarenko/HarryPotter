@@ -560,6 +560,10 @@ video {
   margin-bottom: 6rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .mb-60 {
   margin-bottom: 15rem;
 }
@@ -580,8 +584,16 @@ video {
   height: 200px;
 }
 
+.h-students {
+  height: 400px;
+}
+
 .w-12 {
   width: 3rem;
+}
+
+.w-students {
+  width: 400px;
 }
 
 .max-w-hero {
@@ -617,11 +629,6 @@ video {
 .bg-background {
   --tw-bg-opacity: 1;
   background-color: rgb(249 181 12 / var(--tw-bg-opacity));
-}
-
-.bg-yellow {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 191 89 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -682,6 +689,10 @@ video {
   font-size: 80px;
 }
 
+.text-text {
+  font-size: 40px;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -704,8 +715,17 @@ video {
   line-height: 100px;
 }
 
+.leading-text {
+  line-height: 60px;
+}
+
 .tracking-text {
   letter-spacing: 0.8px;
+}
+
+.text-background {
+  --tw-text-opacity: 1;
+  color: rgb(249 181 12 / var(--tw-text-opacity));
 }
 
 .text-yellow {
@@ -739,23 +759,14 @@ video {
   /* Стиль: normal, italic */
 }
 
-.hover\:bg-background:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 181 12 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-yellow:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(250 191 89 / var(--tw-bg-opacity));
 }
 
-.hover\:underline:hover {
-  text-decoration-line: underline;
-}
-
-.focus\:bg-background:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 181 12 / var(--tw-bg-opacity));
+.hover\:text-yellow:hover {
+  --tw-text-opacity: 1;
+  color: rgb(250 191 89 / var(--tw-text-opacity));
 }
 
 .focus\:bg-yellow:focus {
